@@ -8,16 +8,16 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route path='/movies-catalog/movie/:id'>
+        <Route path='/movie/:id'>
           <Detail />
         </Route>
-        <Route path="/movies-catalog/about">
+        <Route path="/about">
           <About />
         </Route>
-        <Route path="/movies-catalog/contacts">
+        <Route path="/contacts">
           <Contacts />
         </Route>
-        <Route path="/movies-catalog/">
+        <Route path="/">
           <Home />
         </Route>
       </Switch>
