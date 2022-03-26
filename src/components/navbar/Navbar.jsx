@@ -6,13 +6,13 @@ const Navbar = () => {
 		<nav className="top-nav">
 			<ul className="menu">
 				<li>
-					<Link to="/">home</Link>
+					<Link to="/movies-catalog/">home</Link>
 				</li>
 				<li>
-					<Link to="/about">about</Link>
+					<Link to="/movies-catalog/about">about</Link>
 				</li>
 				<li>
-					<Link to="//contacts">contacts</Link>
+					<Link to="/movies-catalog/contacts">contacts</Link>
 				</li>
 			</ul>
   	</nav>
